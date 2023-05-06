@@ -25,7 +25,7 @@ To conduct an exploratory data analysis (EDA) of US unemployment rate data spann
 The goal of this analysis is to identify any significant trends or patterns in the US unemployment rate data using Numpy and Pandas for data manipulation, and visualize the data using Matplotlib and Seaborn. The insights gained from this analysis will help ABC Inc. make an informed decision about whether to hire more employees given the current macro-economic climate. By doing so, the company aims to optimize its hiring strategy and ensure that it is prepared to meet the demands of its expanding customer base while minimizing financial risk.
 
 ## Data Source 
-
+![My cleaned data](https://github.com/ima-projects/US_unemployment_data_analysis/blob/main/(CLEAN)%20unemployment_rate_data%20-%20combined_data.csv)
 
 ## Methods
 - Exploratory Data Analysis
