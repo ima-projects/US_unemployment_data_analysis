@@ -10,7 +10,7 @@ This Jupyter Notebook provides an exploratory data analysis (EDA) of US unemploy
 - [Methods](#methods)
 - [Tech Stack](#tech-stack)
 - [Preliminary Analysis](#preliminary-analysis)
-- [Quick Analysis of Recommender System Results](#quick-analysis-of-recommender-system-results)
+- [Quick Analysis of Results](#quick-analysis-of-results)
 - [Installation: Simplify Your Analysis](#installation-simplify-your-analysis)
   * [Run Locally in Jupyter Notebook](#run-locally-in-jupyter-notebook)
 
@@ -33,6 +33,7 @@ The goal of this analysis is to identify any significant trends or patterns in t
 - Descriptive statistics (mean, median, mode, standard deviation)
 
 ## Tech Stack
+- Jupyter Notebook
 
 ## Preliminary Analysis
 Preliminary Analysis:
@@ -43,3 +44,8 @@ The US unemployment rate data was collected from the Bureau of Labor Statistics 
 - The Pandas library was used to generate descriptive statistics and insights into the data, such as mean, median, standard deviation, and correlation between different variables.
 - Matplotlib and Seaborn were used to visualize the data and gain a better understanding of the trends and patterns. Line charts were used to plot the seasonally adjusted unemployment rate over time, while boxplots were used to compare the unemployment rates across different industries and regions. Heatmaps were used to visualize the correlation between different variables in the dataset.
 - Using seasonally adjusted data provides a clearer and more accurate representation of the underlying trends and patterns in the data. This is especially important when working with a large dataset, where seasonal patterns may be more complex and difficult to identify. Seasonal adjustment also helps to remove the effects of recurring events that may impact the data, such as holidays or seasonal employment patterns.
+
+## Quick Analysis of Results
+- Based on the preliminary analysis, it was observed that the seasonally adjusted unemployment rate had a downward trend over time, indicating a gradual improvement in the employment situation in the US. Additionally, there were variations in unemployment rates across different industries and regions, which could be further explored in the subsequent analysis.
+- Based on reports, it seems that the current industries most affected by layoffs (May 2023) are the tech, finance and media jobs notably located in large metropolitan cities. Tech companies that have layed off employees include Google, Amazon (their eCommerce division) and Microsoft. Media companies to add to the mix include Vox and Buzzfeed. Finally Wall Street, Morgan Stantley and Goldman Sachs have also followed suit.
+- However, in the advent of the AI revolution, there appears to be a shift in hiring more machine learning engineers and data professionals who are needed to handle the growing amounts of data.
