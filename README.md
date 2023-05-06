@@ -11,8 +11,8 @@ This Jupyter Notebook provides an exploratory data analysis (EDA) of US unemploy
 - [Tech Stack](#tech-stack)
 - [Preliminary Analysis](#preliminary-analysis)
 - [Quick Analysis of Results](#quick-analysis-of-results)
- * [Key Findings](#key-findings)
- * [Limitations and Suggestions for Optimization of the Dashboard](#limitations-and-suggestions-for-optimization-of-the-dashboard)
+  * [Key Findings](#key-findings)
+  * [Limitations and Suggestions for Optimization of the Dashboard](#limitations-and-suggestions-for-optimization-of-the-dashboard)
 - [Installation: Simplify Your Analysis](#installation-simplify-your-analysis)
   * [Run Locally in Jupyter Notebook](#run-locally-in-jupyter-notebook)
 
@@ -57,3 +57,27 @@ The US unemployment rate data was collected from the Bureau of Labor Statistics 
 - Based on media reports, it seems that the current industries most affected by layoffs (May 2023) are the tech, finance and media jobs notably located in large metropolitan cities. Tech companies that have layed off employees include Google, Amazon (their eCommerce division) and Microsoft. Media companies to add to the mix include Vox and Buzzfeed. Finally Wall Street, Morgan Stantley and Goldman Sachs have also followed suit.
   - The healthcare and cybersecurity industries appear to be going strong
   - However, in the advent of the AI revolution, there appears to be a shift in hiring more machine learning engineers and data professionals who are needed to handle the growing amounts of data.
+
+## Installation: Simplify Your Analysis
+### Run Locally in Jupyter Notebook
+1. Once Jupyter is installed, open a command prompt or terminal and navigate to the directory where you want to store your notebook files.
+2. Enter the following command to clone the repository:
+```bash
+git clone https://github.com/username/US_unemployment_data_analysis.git
+```
+3. Navigate to the cloned repository folder by entering the following command in the command prompt or terminal to ensure you're in the correct folder:
+```bash
+cd US_unemployment_data_analysis/
+```
+4. Import or install dependencies e.g numpy, pandas, matplotlib and seaborn
+
+5. Run the Jupyter notebook server by entering the following command in the command prompt or terminal:
+```
+jupyter notebook
+```
+This will start the Jupyter notebook server and open a web browser window displaying the Jupyter dashboard.
+
+6. Click on the notebook file you want to run to open it in a new tab in the web browser.
+7. In the notebook, you can execute each cell by clicking on it and then clicking on the "Run" button in the toolbar, or by pressing "Shift+Enter".
+8. You can modify the notebook code and execute it as you see fit.
+9. Cloning the repo also clones the csv file containing the data
