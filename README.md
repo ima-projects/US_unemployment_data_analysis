@@ -11,6 +11,8 @@ This Jupyter Notebook provides an exploratory data analysis (EDA) of US unemploy
 - [Tech Stack](#tech-stack)
 - [Preliminary Analysis](#preliminary-analysis)
 - [Quick Analysis of Results](#quick-analysis-of-results)
+ * [Key Findings](#key-findings)
+ * [Limitations and Suggestions for Optimization of the Dashboard](#limitations-and-suggestions-for-optimization-of-the-dashboard)
 - [Installation: Simplify Your Analysis](#installation-simplify-your-analysis)
   * [Run Locally in Jupyter Notebook](#run-locally-in-jupyter-notebook)
 
@@ -46,6 +48,12 @@ The US unemployment rate data was collected from the Bureau of Labor Statistics 
 - Using seasonally adjusted data provides a clearer and more accurate representation of the underlying trends and patterns in the data. This is especially important when working with a large dataset, where seasonal patterns may be more complex and difficult to identify. Seasonal adjustment also helps to remove the effects of recurring events that may impact the data, such as holidays or seasonal employment patterns.
 
 ## Quick Analysis of Results
-- Based on the preliminary analysis, it was observed that the seasonally adjusted unemployment rate had a downward trend over time, indicating a gradual improvement in the employment situation in the US. Additionally, there were variations in unemployment rates across different industries and regions, which could be further explored in the subsequent analysis.
-- Based on reports, it seems that the current industries most affected by layoffs (May 2023) are the tech, finance and media jobs notably located in large metropolitan cities. Tech companies that have layed off employees include Google, Amazon (their eCommerce division) and Microsoft. Media companies to add to the mix include Vox and Buzzfeed. Finally Wall Street, Morgan Stantley and Goldman Sachs have also followed suit.
-- However, in the advent of the AI revolution, there appears to be a shift in hiring more machine learning engineers and data professionals who are needed to handle the growing amounts of data.
+### Key Findings
+- Based on the preliminary analysis, it was observed that the seasonally adjusted unemployment rate had a downward trend over time, indicating a gradual improvement in the employment situation in the US. Additionally, there were variations in unemployment rates across different industries and regions, which could be further explored in the subsequent analysis. This analysis was mainly focuded on age groups and gender.
+
+### Limitations and Suggestions for Optimization of the Dashboard
+- This analysis was mainly focused on unemployment difference of age groups and gender. In the future I hope to lesson the focus on age group and gender and move towards an analysis that encompasses the differences between industries and regsions and compare that with company's (ABC Inc.) respective industry.
+- I also hope to supplement my analysis with market leading industry reports that can provide valuable insights into market size and growth, competitive forces, consumer behavior, and regulatory changes affecting the industry. By combining these external insights with my internal data analysis conducted in Jupyter Notebook, I can gain a more comprehensive understanding of the industry and make more informed business decisions. 
+- Based on media reports, it seems that the current industries most affected by layoffs (May 2023) are the tech, finance and media jobs notably located in large metropolitan cities. Tech companies that have layed off employees include Google, Amazon (their eCommerce division) and Microsoft. Media companies to add to the mix include Vox and Buzzfeed. Finally Wall Street, Morgan Stantley and Goldman Sachs have also followed suit.
+  - The healthcare and cybersecurity industries appear to be going strong
+  - However, in the advent of the AI revolution, there appears to be a shift in hiring more machine learning engineers and data professionals who are needed to handle the growing amounts of data.
