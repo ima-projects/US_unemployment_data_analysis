@@ -80,4 +80,4 @@ This will start the Jupyter notebook server and open a web browser window displa
 6. Click on the notebook file you want to run to open it in a new tab in the web browser.
 7. In the notebook, you can execute each cell by clicking on it and then clicking on the "Run" button in the toolbar, or by pressing "Shift+Enter".
 8. You can modify the notebook code and execute it as you see fit.
-9. Cloning the repo also clones the csv file containing the data
+9. Import the csv file. Cloning the repo also clones the csv file containing the data
